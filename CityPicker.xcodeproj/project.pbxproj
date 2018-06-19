@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0CB5DA20D8A815006778D6 /* SDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0CB5D920D8A815006778D6 /* SDateView.m */; };
+		CF0CB5DE20D8A842006778D6 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0CB5DD20D8A842006778D6 /* UIViewExt.m */; };
+		CF0CB5E020D8D175006778D6 /* districtMGE.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF0CB5DF20D8D175006778D6 /* districtMGE.plist */; };
 		CFCE85A320D89D3800F9C10B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCE85A220D89D3800F9C10B /* AppDelegate.m */; };
 		CFCE85A620D89D3800F9C10B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCE85A520D89D3800F9C10B /* ViewController.m */; };
 		CFCE85A920D89D3800F9C10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCE85A720D89D3800F9C10B /* Main.storyboard */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF0CB5D720D8A20D006778D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CF0CB5D820D8A815006778D6 /* SDateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDateView.h; sourceTree = "<group>"; };
+		CF0CB5D920D8A815006778D6 /* SDateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDateView.m; sourceTree = "<group>"; };
+		CF0CB5DC20D8A842006778D6 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		CF0CB5DD20D8A842006778D6 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		CF0CB5DF20D8D175006778D6 /* districtMGE.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = districtMGE.plist; sourceTree = "<group>"; };
 		CFCE859E20D89D3800F9C10B /* CityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCE85A120D89D3800F9C10B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFCE85A220D89D3800F9C10B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +87,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF0CB5DB20D8A827006778D6 /* UIViewExt */ = {
+			isa = PBXGroup;
+			children = (
+				CF0CB5DC20D8A842006778D6 /* UIViewExt.h */,
+				CF0CB5DD20D8A842006778D6 /* UIViewExt.m */,
+				CF0CB5DF20D8D175006778D6 /* districtMGE.plist */,
+			);
+			path = UIViewExt;
+			sourceTree = "<group>";
+		};
 		CFCE859520D89D3800F9C10B = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +120,19 @@
 		CFCE85A020D89D3800F9C10B /* CityPicker */ = {
 			isa = PBXGroup;
 			children = (
+				CF0CB5DB20D8A827006778D6 /* UIViewExt */,
 				CFCE85A120D89D3800F9C10B /* AppDelegate.h */,
 				CFCE85A220D89D3800F9C10B /* AppDelegate.m */,
 				CFCE85A420D89D3800F9C10B /* ViewController.h */,
 				CFCE85A520D89D3800F9C10B /* ViewController.m */,
+				CF0CB5D820D8A815006778D6 /* SDateView.h */,
+				CF0CB5D920D8A815006778D6 /* SDateView.m */,
 				CFCE85A720D89D3800F9C10B /* Main.storyboard */,
 				CFCE85AA20D89D4100F9C10B /* Assets.xcassets */,
 				CFCE85AC20D89D4100F9C10B /* LaunchScreen.storyboard */,
 				CFCE85AF20D89D4100F9C10B /* Info.plist */,
 				CFCE85B020D89D4100F9C10B /* main.m */,
+				CF0CB5D720D8A20D006778D6 /* PrefixHeader.pch */,
 			);
 			path = CityPicker;
 			sourceTree = "<group>";
@@ -237,6 +260,7 @@
 			files = (
 				CFCE85AE20D89D4100F9C10B /* LaunchScreen.storyboard in Resources */,
 				CFCE85AB20D89D4100F9C10B /* Assets.xcassets in Resources */,
+				CF0CB5E020D8D175006778D6 /* districtMGE.plist in Resources */,
 				CFCE85A920D89D3800F9C10B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +288,8 @@
 			files = (
 				CFCE85A620D89D3800F9C10B /* ViewController.m in Sources */,
 				CFCE85B120D89D4100F9C10B /* main.m in Sources */,
+				CF0CB5DE20D8A842006778D6 /* UIViewExt.m in Sources */,
+				CF0CB5DA20D8A815006778D6 /* SDateView.m in Sources */,
 				CFCE85A320D89D3800F9C10B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +460,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
+				GCC_PREFIX_HEADER = /Users/superman/Desktop/CityPicker/CityPicker/PrefixHeader.pch;
 				INFOPLIST_FILE = CityPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +479,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
+				GCC_PREFIX_HEADER = /Users/superman/Desktop/CityPicker/CityPicker/PrefixHeader.pch;
 				INFOPLIST_FILE = CityPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
