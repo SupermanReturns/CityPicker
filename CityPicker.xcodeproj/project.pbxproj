@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFCE85A320D89D3800F9C10B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCE85A220D89D3800F9C10B /* AppDelegate.m */; };
+		CFCE85A620D89D3800F9C10B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCE85A520D89D3800F9C10B /* ViewController.m */; };
+		CFCE85A920D89D3800F9C10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCE85A720D89D3800F9C10B /* Main.storyboard */; };
+		CFCE85AB20D89D4100F9C10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCE85AA20D89D4100F9C10B /* Assets.xcassets */; };
+		CFCE85AE20D89D4100F9C10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFCE85AC20D89D4100F9C10B /* LaunchScreen.storyboard */; };
+		CFCE85B120D89D4100F9C10B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCE85B020D89D4100F9C10B /* main.m */; };
+		CFCE85BB20D89D4100F9C10B /* CityPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCE85BA20D89D4100F9C10B /* CityPickerTests.m */; };
+		CFCE85C620D89D4100F9C10B /* CityPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCE85C520D89D4100F9C10B /* CityPickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFCE85B720D89D4100F9C10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCE859620D89D3800F9C10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCE859D20D89D3800F9C10B;
+			remoteInfo = CityPicker;
+		};
+		CFCE85C220D89D4100F9C10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCE859620D89D3800F9C10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCE859D20D89D3800F9C10B;
+			remoteInfo = CityPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFCE859E20D89D3800F9C10B /* CityPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCE85A120D89D3800F9C10B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFCE85A220D89D3800F9C10B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFCE85A420D89D3800F9C10B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFCE85A520D89D3800F9C10B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFCE85A820D89D3800F9C10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFCE85AA20D89D4100F9C10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFCE85AD20D89D4100F9C10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFCE85AF20D89D4100F9C10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCE85B020D89D4100F9C10B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFCE85B620D89D4100F9C10B /* CityPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCE85BA20D89D4100F9C10B /* CityPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityPickerTests.m; sourceTree = "<group>"; };
+		CFCE85BC20D89D4100F9C10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCE85C120D89D4100F9C10B /* CityPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCE85C520D89D4100F9C10B /* CityPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityPickerUITests.m; sourceTree = "<group>"; };
+		CFCE85C720D89D4100F9C10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFCE859B20D89D3800F9C10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCE85B320D89D4100F9C10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCE85BE20D89D4100F9C10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFCE859520D89D3800F9C10B = {
+			isa = PBXGroup;
+			children = (
+				CFCE85A020D89D3800F9C10B /* CityPicker */,
+				CFCE85B920D89D4100F9C10B /* CityPickerTests */,
+				CFCE85C420D89D4100F9C10B /* CityPickerUITests */,
+				CFCE859F20D89D3800F9C10B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCE859F20D89D3800F9C10B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCE859E20D89D3800F9C10B /* CityPicker.app */,
+				CFCE85B620D89D4100F9C10B /* CityPickerTests.xctest */,
+				CFCE85C120D89D4100F9C10B /* CityPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCE85A020D89D3800F9C10B /* CityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CFCE85A120D89D3800F9C10B /* AppDelegate.h */,
+				CFCE85A220D89D3800F9C10B /* AppDelegate.m */,
+				CFCE85A420D89D3800F9C10B /* ViewController.h */,
+				CFCE85A520D89D3800F9C10B /* ViewController.m */,
+				CFCE85A720D89D3800F9C10B /* Main.storyboard */,
+				CFCE85AA20D89D4100F9C10B /* Assets.xcassets */,
+				CFCE85AC20D89D4100F9C10B /* LaunchScreen.storyboard */,
+				CFCE85AF20D89D4100F9C10B /* Info.plist */,
+				CFCE85B020D89D4100F9C10B /* main.m */,
+			);
+			path = CityPicker;
+			sourceTree = "<group>";
+		};
+		CFCE85B920D89D4100F9C10B /* CityPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCE85BA20D89D4100F9C10B /* CityPickerTests.m */,
+				CFCE85BC20D89D4100F9C10B /* Info.plist */,
+			);
+			path = CityPickerTests;
+			sourceTree = "<group>";
+		};
+		CFCE85C420D89D4100F9C10B /* CityPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCE85C520D89D4100F9C10B /* CityPickerUITests.m */,
+				CFCE85C720D89D4100F9C10B /* Info.plist */,
+			);
+			path = CityPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFCE859D20D89D3800F9C10B /* CityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCE85CA20D89D4100F9C10B /* Build configuration list for PBXNativeTarget "CityPicker" */;
+			buildPhases = (
+				CFCE859A20D89D3800F9C10B /* Sources */,
+				CFCE859B20D89D3800F9C10B /* Frameworks */,
+				CFCE859C20D89D3800F9C10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityPicker;
+			productName = CityPicker;
+			productReference = CFCE859E20D89D3800F9C10B /* CityPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFCE85B520D89D4100F9C10B /* CityPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCE85CD20D89D4100F9C10B /* Build configuration list for PBXNativeTarget "CityPickerTests" */;
+			buildPhases = (
+				CFCE85B220D89D4100F9C10B /* Sources */,
+				CFCE85B320D89D4100F9C10B /* Frameworks */,
+				CFCE85B420D89D4100F9C10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCE85B820D89D4100F9C10B /* PBXTargetDependency */,
+			);
+			name = CityPickerTests;
+			productName = CityPickerTests;
+			productReference = CFCE85B620D89D4100F9C10B /* CityPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFCE85C020D89D4100F9C10B /* CityPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCE85D020D89D4100F9C10B /* Build configuration list for PBXNativeTarget "CityPickerUITests" */;
+			buildPhases = (
+				CFCE85BD20D89D4100F9C10B /* Sources */,
+				CFCE85BE20D89D4100F9C10B /* Frameworks */,
+				CFCE85BF20D89D4100F9C10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCE85C320D89D4100F9C10B /* PBXTargetDependency */,
+			);
+			name = CityPickerUITests;
+			productName = CityPickerUITests;
+			productReference = CFCE85C120D89D4100F9C10B /* CityPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCE859620D89D3800F9C10B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Superman;
+				TargetAttributes = {
+					CFCE859D20D89D3800F9C10B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CFCE85B520D89D4100F9C10B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CFCE859D20D89D3800F9C10B;
+					};
+					CFCE85C020D89D4100F9C10B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CFCE859D20D89D3800F9C10B;
+					};
+				};
+			};
+			buildConfigurationList = CFCE859920D89D3800F9C10B /* Build configuration list for PBXProject "CityPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFCE859520D89D3800F9C10B;
+			productRefGroup = CFCE859F20D89D3800F9C10B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFCE859D20D89D3800F9C10B /* CityPicker */,
+				CFCE85B520D89D4100F9C10B /* CityPickerTests */,
+				CFCE85C020D89D4100F9C10B /* CityPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFCE859C20D89D3800F9C10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCE85AE20D89D4100F9C10B /* LaunchScreen.storyboard in Resources */,
+				CFCE85AB20D89D4100F9C10B /* Assets.xcassets in Resources */,
+				CFCE85A920D89D3800F9C10B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCE85B420D89D4100F9C10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCE85BF20D89D4100F9C10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFCE859A20D89D3800F9C10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCE85A620D89D3800F9C10B /* ViewController.m in Sources */,
+				CFCE85B120D89D4100F9C10B /* main.m in Sources */,
+				CFCE85A320D89D3800F9C10B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCE85B220D89D4100F9C10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCE85BB20D89D4100F9C10B /* CityPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCE85BD20D89D4100F9C10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCE85C620D89D4100F9C10B /* CityPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFCE85B820D89D4100F9C10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCE859D20D89D3800F9C10B /* CityPicker */;
+			targetProxy = CFCE85B720D89D4100F9C10B /* PBXContainerItemProxy */;
+		};
+		CFCE85C320D89D4100F9C10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCE859D20D89D3800F9C10B /* CityPicker */;
+			targetProxy = CFCE85C220D89D4100F9C10B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFCE85A720D89D3800F9C10B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCE85A820D89D3800F9C10B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCE85AC20D89D4100F9C10B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCE85AD20D89D4100F9C10B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFCE85C820D89D4100F9C10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFCE85C920D89D4100F9C10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFCE85CB20D89D4100F9C10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CityPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.CityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFCE85CC20D89D4100F9C10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CityPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.CityPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFCE85CE20D89D4100F9C10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.CityPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityPicker.app/CityPicker";
+			};
+			name = Debug;
+		};
+		CFCE85CF20D89D4100F9C10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CityPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.CityPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CityPicker.app/CityPicker";
+			};
+			name = Release;
+		};
+		CFCE85D120D89D4100F9C10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CityPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.CityPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CityPicker;
+			};
+			name = Debug;
+		};
+		CFCE85D220D89D4100F9C10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CityPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffd.CityPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CityPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFCE859920D89D3800F9C10B /* Build configuration list for PBXProject "CityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCE85C820D89D4100F9C10B /* Debug */,
+				CFCE85C920D89D4100F9C10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCE85CA20D89D4100F9C10B /* Build configuration list for PBXNativeTarget "CityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCE85CB20D89D4100F9C10B /* Debug */,
+				CFCE85CC20D89D4100F9C10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCE85CD20D89D4100F9C10B /* Build configuration list for PBXNativeTarget "CityPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCE85CE20D89D4100F9C10B /* Debug */,
+				CFCE85CF20D89D4100F9C10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCE85D020D89D4100F9C10B /* Build configuration list for PBXNativeTarget "CityPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCE85D120D89D4100F9C10B /* Debug */,
+				CFCE85D220D89D4100F9C10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFCE859620D89D3800F9C10B /* Project object */;
+}
